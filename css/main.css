@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300');
+
+.search{
+    position: absolute;
+    bottom: 11px;
+    left: 20px;
+}
+.realat{
+    position: relative;
+}
+nav{
+    height: 80px;
+}
+.navitem{
+    font-weight: bolder;
+    font-size: medium;
+    color:white;
+}
+.navitem:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+.video{
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ .contente{
+    position: absolute;
+     display: flex;
+     align-items: end;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.containere .next,
+.containere .prev{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    background: rgba(0,0,0,0.7);
+    color: #333;
+    font-weight: bold;
+    height: 60px;
+    width: 50px;
+    line-height: 55px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.next{
+    right: 0;
+}
+.prev{
+    left: 0;
+}
+.containere .slide-container{
+    display: none;
+}
+.containere .slide-container.active{
+    display: block;
+}
+
+main{
+    background-color: #1e1e1e;
+}
+.mid .container{
+    width: 90%;
+}
+.container .columns .box{
+width: 75%;
+}
+.card{
+    min-width: 183px;
+    min-height: 384px;
+    max-height: 384px;
+}
+.card-image
+.cardprev{
+    left: 15px;
+}
+.cardnext{
+    right: 15px;
+}
+.cardnext, .cardprev{
+    background: rgba(0,0,0,0.7);
+    color: red;
+    font-weight: bold;
+    height: 60px;
+    width: 50px;
+    line-height: 55px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.med{
+    padding-bottom: 18px;
+}
+.mid,.submid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.monts{
+    font-family:'Montserrat';
+};
+.gap{
+    gap: 10px;
+}
+.gapp{
+    gap: 12px;
+}
+.gapn{
+    gap:5px
+}
+.gapcon{
+    gap: 50px;
+}
+.gapmid{
+    gap: 30px;
+}
+.p10{
+    padding: 1rem 3rem;
+}
+
+.covertext{
+    color: white;
+    background: rgba(0,0,0,0.7);
+    font-weight:1000;
+}
+.parallax{
+    background-image: url('/Images/AboutUs/AboutUs.jpg');
+    height: 90%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body, html {
+    height: 100%;
+  }
+  .center{
+    height: 100vh;
+  }
+  .topic{
+    height: 50vh;
+    margin: 0;
+  }
+
+ .leftnews{
+    width: 50%;
+ }
+ .rightnews{
+  width: 40%;
+ }
+ .righta{
+    max-height: 438px;
+    width: 60%;
+ }
+ .lefta{
+    width: 40%;
+ }
+ .boxie{
+    width:685px;
+    height: 250px;
+ }
+ .fott{
+    height: 20%;
+ }
+ .op{
+opacity: 0.8;
+ }
+ .maxwidth{
+    max-width: 550px;
+ }
+ @media screen and (min-width:1440px) and (max-width:2652px){
+    .leftn{
+        width: 50%;
+    }
+    .righta img{
+        max-height: 438px;
+    }
+    .righta {
+        max-width: 778.6px;
+    }
+ }
+ @media screen and (min-width:1216px) and (max-width:1439px){
+    .righta img{
+        max-height: 370px;
+    }
+    .righta {
+        max-height: 370px;
+        max-width: 657.7px;
+    }
+    .lefta p{
+        font-size: 18px;
+    }
+ }
+ @media screen and (min-width:1000px) and (max-width:1215px){
+    .righta img{
+        max-height: 280px;
+    }
+    .righta {
+        max-height: 280px;
+        max-width: 498px;
+    }
+    .lefta p{
+        font-size: 12px;
+    }
+    .mid .container{
+        padding-left: 0px;
+    }
+ }
+ @media screen and (min-width:768px) and (max-width:999px){
+    /* .righta img{
+        max-height: 220px;
+    }*/
+    .righta{
+        max-height: 229px;
+        max-width: 407px;
+    } 
+    .lefta{
+        padding: 10px 15px;
+    }
+    .lefta p{
+        font-size: 8px;
+    }
+ }
+ @media screen and (min-width:320px) and (max-width:767px){
+    .mid .container{
+      flex-wrap: wrap;
+    }
+    .righta {
+        width: 100%;
+    }
+    .lefta{
+        width: 100%;
+    }
+    .lefta p{
+        font-size: 10px;
+    }
+    .lefta .button{
+        padding: 1px;
+    }
+    .cardgames a{
+        margin-top: 16px;
+    }
+ }
+ @media screen and (max-width:1090px) and (min-width:320px){
+    .contente .container{
+        padding-left: 70px;
+      }
+ }
+ @media screen and (max-width:469px) and (min-width:320px){
+    .contente .container img{
+        width: 70px;
+      }
+      .contente .container .button{
+        padding: 7px;
+        height: 30px;
+      }
+    .contente .container p{
+        font-size: 8px;
+      }
+ }
+ @media screen and (min-width:320px) and (max-width:1023px){
+  nav{
+    height: 52px;
+  }
+ }
+
+
+
+
+
+ @media screen and (max-width:1270px) and (min-width:1070px){
+    
+    .c6{
+        display: none;
+    }
+ }
+ @media screen and (max-width:1090px) and (min-width:908px){
+    .cardgames{
+        display: flex;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .c6{
+        display: none;
+    }
+    .c5{
+        display: none;
+    }
+ }
+ @media screen and (max-width:907px) and (min-width:680px){
+    .cardgames{
+        display: flex;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .c6{
+        display: none;
+    }
+    .c5{
+        display: none;
+    }
+    .c4{
+        display: none;
+    }
+ }
+ @media screen and (max-width:680px) and (min-width:475px){
+    .cardgames{
+        display: flex;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .c6{
+        display: none;
+    }
+    .c5{
+        display: none;
+    }
+    .c4{
+        display: none;
+    }
+    .c3{
+        display: none;
+    }
+ }
+ @media screen and (max-width:474px) and (min-width:320px){
+    .cardgames{
+        display: flex;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .c6{
+        display: none;
+    }
+    .c5{
+        display: none;
+    }
+    .c4{
+        display: none;
+    }
+    .c3{
+        display: none;
+    }
+    .c2{
+        display: none;
+    }
+ }
+
+
+

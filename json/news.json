@@ -1,0 +1,160 @@
+[{
+    "marioxrabbids" : [{
+        "img":"/Images/News/MarioxRabbids/01.avif",
+        "data":"24 March 2023",
+        "text":"GDC 2023: How Mario + Rabbids Sparks of Hope Improved Procedural Generation with Layered Battles"
+    },
+    {
+        "img":"/Images/News/MarioxRabbids/02.avif",
+        "data":"20 January 2023",
+        "text":"Celebrate the Lunar New Year With a Rabbid Retrospective"
+    },
+    {
+        "img":"/Images/News/MarioxRabbids/03.webp",
+        "data":"2 November 2022",
+        "text":"Mario + Rabbids Sparks of Hope Season Pass DLC Content Revealed"
+    },
+    {
+        "img":"/Images/News/MarioxRabbids/04.avif",
+        "data":"2 March 2023",
+        "text":"Mario + Rabbids Sparks of Hope Free Demo and First DLC, The Tower of Doooom, Available Now"
+    },
+    {
+        "img":"/Images/News/MarioxRabbids/05.webp",
+        "data":"16 December 2022",
+        "text":"Mario + Rabbids Sparks of Hope Free Demo and First DLC, The Tower of Doooom, Available Now"
+    },
+    {
+        "img":"/Images/News/MarioxRabbids/06.webp",
+        "data":"25 October 2022",
+        "text":"Mario + Rabbids Sparks of Hope Planet Guides Available Now"
+    }
+    
+],
+    "assassincreed" : [{
+        "img":"/Images/News/Assassin'sCreed/01.avif",
+        "data":"27 April 2023",
+        "text":"Assassin's Creed: The Resurrection Plot"
+       },
+       {
+        "img":"/Images/News/Assassin'sCreed/02.avif",
+        "data":"13 March 2023",
+        "text":"Assassin's Creed Podcast Echoes of History: Assassins vs. Templars Out Now"
+       },
+       {
+        "img":"/Images/News/Assassin'sCreed/03.avif",
+        "data":"20 February 2023",
+        "text":"Assassin's Creed: The Golden City"
+       },
+       {
+        "img":"/Images/News/Assassin'sCreed/04.avif",
+        "data":"12 April 2023",
+        "text":"Assassin's Creed IV: Black Flag Sequel Webcomic Coming Exclusively to WEBTOON"
+       },
+       {
+        "img":"/Images/News/Assassin'sCreed/05.avif",
+        "data":"28 February 2023",
+        "text":"Assassin's Creed Odyssey Partners with Ashmolean Museum for Mythological Exhibit"
+       },
+       {
+        "img":"/Images/News/Assassin'sCreed/06.jpg",
+        "data":"16 December 2023",
+        "text":"AC15 COMMUNITY SPOTLIGHT: MEET MEMBERS OF OUR COSPLAY COMMUNITY"
+       }],
+     "thedivision" : [{
+        "img":"/Images/News/Division/01.avif",
+        "data":"12 June 2023",
+        "text":"The Division Resurgence Amps Up Specializations, Launch Slated for Fall 2023"
+    },
+    {
+        "img":"/Images/News/Division/02.avif",
+        "data":"20 April 2023",
+        "text":"The Division Cross-Game Rewards"
+    },
+    {
+        "img":"/Images/News/Division/03.avif",
+        "data":"19 April 2023",
+        "text":"WATCH DIVISION DAY ON TWITCH TO EARN THE DIVISION 2 REWARDS"
+    },
+    {
+        "img":"/Images/News/Division/04.avif",
+        "data":"20 April 2023",
+        "text":"The Division Day: Everything Announced for The Division 2, The Division Heartland, and The Division Resurgence"
+    },
+    {
+        "img":"/Images/News/Division/05.avif",
+        "data":"19 December 2022",
+        "text":"Division Day Stream to Reveal News on The Division 2, Heartland, and Resurgence on April 20"
+    },
+    {
+        "img":"/Images/News/Division/06.webp",
+        "data":"7 December 2022",
+        "text":"The Division Resurgence Announces Live Test Starting December 8"
+    }
+    
+],
+"rainbow" : [{
+    "img":"/Images/News/RainBow/01.avif",
+    "data":"6 June 2023",
+    "text":"START League full guide: check out all the information about the tournament for Brazilian Tier 2 teams"
+},
+{
+    "img":"/Images/News/RainBow/02.avif",
+    "data":"5 June 2023",
+    "text":"Announcing the European Off-Season Competitions"
+},
+{
+    "img":"/Images/News/RainBow/03.avif",
+    "data":"30 May 2023",
+    "text":"The return of Community Cups and news on Off-Season competitions"
+},
+{
+    "img":"/Images/News/RainBow/04.avif",
+    "data":"6 June 2023",
+    "text":"June 2023: New pro-team R6 SHARE items available now"
+},
+{
+    "img":"/Images/News/RainBow/05.avif",
+    "data":"31 May 2023",
+    "text":"Introducing ELEMENT ONE: the North America Off-Season Competition"
+},
+{
+    "img":"/Images/News/RainBow/06.avif",
+    "data":"30 May 2023",
+    "text":"Y8S2 Operation Dread Factor Patch Notes Addendum"
+}
+
+],
+"all" : [{
+    "img":"/Images/News/Division/01.avif",
+    "data":"12 June 2023",
+    "text":"The Division Resurgence Amps Up Specializations, Launch Slated for Fall 2023"
+},
+{
+    "img":"/Images/News/Assassin'sCreed/02.avif",
+    "data":"13 March 2023",
+    "text":"Assassin's Creed Podcast Echoes of History: Assassins vs. Templars Out Now"
+},
+{
+    "img":"/Images/News/MarioxRabbids/03.webp",
+    "data":"2 November 2022",
+    "text":"Mario + Rabbids Sparks of Hope Season Pass DLC Content Revealed"
+},
+{
+    "img":"/Images/News/RainBow/01.avif",
+    "data":"6 June 2023",
+    "text":"START League full guide: check out all the information about the tournament for Brazilian Tier 2 teams"
+},
+{
+    "img":"/Images/News/MarioxRabbids/04.avif",
+    "data":"2 March 2023",
+    "text":"Mario + Rabbids Sparks of Hope Free Demo and First DLC, The Tower of Doooom, Available Now"
+},
+{
+    "img":"/Images/News/Assassin'sCreed/06.jpg",
+    "data":"16 December 2023",
+    "text":"AC15 COMMUNITY SPOTLIGHT: MEET MEMBERS OF OUR COSPLAY COMMUNITY"
+}
+
+]
+}]

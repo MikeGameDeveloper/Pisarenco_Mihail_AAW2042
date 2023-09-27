@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../node_modules/bulma/sass/utilities/functions.sass";
+
+
+// My Colors
+$inputi: #2d2d2d;
+$inputColor: #65686e;
+$borderinputi:#424242;
+$culoare:White;
+$boxe:#1e1e1e;
+
+
+$rosu:#e60012;
+$rosu-invert: findColorInvert($rosu);
+$gray:#242424;
+$gray-invert: findColorInvert($gray);
+$gray1:#1a1a1a;
+$gray1-invert: findColorInvert($gray1);
+$gray2:#4a4a4a;
+$gray2-invert: findColorInvert($gray2);
+@import "../node_modules/bulma/sass/utilities/derived-variables.sass";
+$addColors: (
+  "rosu":($rosu, $rosu-invert),
+  "gray":($gray, $gray-invert),
+  "gray1":($gray1, $gray1-invert),
+  "gray2":($gray2, $gray2-invert)
+);
+$colors: map-merge($colors, $addColors);
+
+
+$input-placeholder-color:$inputColor;
+$input-background-color:$inputi;
+$navbar-background-color:$gray1;
+$navbar-item-color:$culoare;
+$navbar-item-hover-color:$rosu;
+$navbar-dropdown-background-color:$gray1;
+
+$title-color:white;
+
+
+$subtitle-color:white;
+$input-border-color:$borderinputi;
+$a-color:white;
+$subtitle-font-weight:5px;
+$card-background-color:$gray1;
+$card-content-padding:0.7rem;
+$title-family:'Montserrat' sans-serif;
+$title-color:#d1d1d1;
+
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+
+
+
+
